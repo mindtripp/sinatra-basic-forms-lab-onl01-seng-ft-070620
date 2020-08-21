@@ -61,7 +61,6 @@ describe App do
       expect(page.current_path).to eq("/puppy")
     end
 
-    
 
       #now do it again, to be sure it's not hard-coded
       visit '/new'
